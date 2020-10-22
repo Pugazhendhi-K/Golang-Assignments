@@ -1,2 +1,2 @@
-# Kloudone - Work Done (Golang Programming)
+# KloudOne - Work Done (Golang Programming)
 
