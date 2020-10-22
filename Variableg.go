@@ -13,6 +13,7 @@ func main() {
 	var e float64
 	e = float64(a)
 	fmt.Printf("%v, %T\n", e, e)
+	var f string
 	f = strconv.Itoa(b)
 	fmt.Printf("%v, %T\n", f, f)
 }
