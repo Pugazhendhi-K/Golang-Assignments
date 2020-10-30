@@ -7,7 +7,12 @@ insert into user (userId, username, password) values (1, 'Arun', '45q');
 insert into user (userId, username, password) values (2, 'Ramesh', '580ig7800');
 insert into user (userId, username, password) values (3, 'John', '68gjjj');
 
-//Deletes the Records of the Table only
+//Deletes the Field of the Table
+
+ALTER TABLE user
+DROP COLUMN password;
+
+//Deletes  all the Records of the Table only
 
 TRUNCATE TABLE user;
 
